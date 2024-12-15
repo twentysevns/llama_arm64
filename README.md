@@ -1,16 +1,16 @@
 # Decription
 That repo will explain, how to installing llama.cpp for arm64 device? then how to pull dataset (llm) over Ollama repo.
 
-## Installing dependencies first
+### Installing dependencies first
 ```
 apt install build-essential bc cmake ccache git python3 python3-pip
 ```
-## Clone llamma.cpp repo & cd into it
+### Clone llamma.cpp repo & cd into it
 ```
 git clone https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
 ```
-## Build & compile using cmake
+### Build & compile using cmake
 ```
 cmake -B build
 cmake --build build --config Release -j$(nproc)
