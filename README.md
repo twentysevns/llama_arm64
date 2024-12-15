@@ -1,7 +1,7 @@
 # Description
 This repo will explain, how to installing llama.cpp for arm64 device? then how to pull dataset (LLM) over Ollama library?.
 
-### Installing dependencies first.
+Installing dependencies first.
 ```
 apt install build-essential bc cmake ccache git python3-pip
 ```
