@@ -16,13 +16,13 @@ cmake -B build
 cmake --build build --config Release -j$(nproc)
 cd $HOME
 ```
-### Then clone the llm downloader & cd into it
+### Then clone the LLM downloader & cd into it
 ```
 https://github.com/akx/ollama-dl.git
 cd ollama-dl
 pip install uv
 ```
-### Then clone llm from Ollama library, the sample here qwen2.5:0.5b for other LLM you can browse over [ollama](https://ollama.com/library).
+### After that, clone LLM from Ollama library, the sample here qwen2.5:0.5b for other LLM you can browse over [ollama](https://ollama.com/library).
 ```
 uv run ollama_dl.py qwen2.5:0.5b
 ```
@@ -31,7 +31,7 @@ uv run ollama_dl.py qwen2.5:0.5b
 cd $HOME
 ./llama.cpp/build/bin/llama-cli -m ./ollama-dl/library-qwen2.5-0.5b/model-*.gguf -p "hello" -cnv -co
 ```
-### Also, here the sample benchmark that i've done work on it, both of all using is qwen2.5:0.5b llm.
+### Also, here the sample benchmark that i've done on it, both of all using qwen2.5:0.5b LLM.
 ```
 Orange pi Zero 3 1GB h618 cpu  = 0.49 T/s
 Tanix tx6 4/32GB h6 cpu        = 4.40 T/s
