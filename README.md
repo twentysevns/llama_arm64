@@ -22,7 +22,7 @@ https://github.com/akx/ollama-dl.git
 cd ollama-dl
 pip install uv
 ```
-### Then clone llm from Ollama repo, here the sample is qwen2.5:0.5b for other llm you can browse over ollama webapps.
+### Then clone llm from Ollama repo, the sample here qwen2.5:0.5b for other llm you can browse over ollama webapps.
 ```
 uv run ollama_dl.py qwen2.5:0.5b
 ```
@@ -31,4 +31,10 @@ uv run ollama_dl.py qwen2.5:0.5b
 cd $HOME
 ./llama.cpp/build/bin/llama-cli -m ./ollama-dl/library-qwen2.5-0.5b/model-*.gguf -p "hello" -cnv -co
 ```
-
+### Also, here the sample benchmark that i've done work on it, both of all llm is qwen2.5:0.5b.
+```
+Orange pi Zero 3 1GB h618 cpu  = 0.49 T/s
+Tanix tx6 4/32GB h6 cpu        = 4.40 T/s
+H96 Max X3 4/33GB s905x3 cpu   = 6.57 T/s
+```
+## Feel free to stargaze :D
