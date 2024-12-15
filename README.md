@@ -3,7 +3,7 @@ This repo will explain, how to installing llama.cpp for arm64 device? then how t
 
 ### Installing dependencies first
 ```
-apt install build-essential bc cmake ccache git python3 python3-pip
+apt install build-essential bc cmake ccache git python3-pip
 ```
 ### Clone llamma.cpp repo & cd into it
 ```
