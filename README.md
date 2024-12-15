@@ -32,6 +32,10 @@ uv run ollama_dl.py qwen2.5:0.5b
 cd $HOME
 ./llama.cpp/build/bin/llama-cli -m ./ollama-dl/library-qwen2.5-0.5b/model-*.gguf -p "hello" -cnv -co
 ```
+For other option use
+```
+./llama.cpp/build/bin/llama-cli -h
+```
 **Also, here the sample benchmark that i've done on it, both of all using qwen2.5:0.5b LLM.**
 ```
 Orange Pi Zero 3 1GB H618 CPU  = 0.49 T/s
