@@ -1,5 +1,5 @@
 # Description
-That repo will explain, how to installing llama.cpp for arm64 device? then how to pull dataset (llm) over Ollama repo.
+This repo will explain, how to installing llama.cpp for arm64 device? then how to pull dataset (llm) over Ollama repo?.
 
 ### Installing dependencies first
 ```
