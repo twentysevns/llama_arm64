@@ -36,7 +36,7 @@ cd $HOME
 ```
 ./llama.cpp/build/bin/llama-cli -h
 ```
-**Also, here the sample benchmark that i've done on it, both of all using qwen2.5:0.5b LLM.**
+**Also, here the sample benchmark that i've done on it, that all using qwen2.5:0.5b LLM.**
 ```
 Orange Pi Zero 3 1GB H618 CPU  = 0.49 T/s
 Tanix Tx6 4/32GB H6 CPU        = 4.40 T/s
