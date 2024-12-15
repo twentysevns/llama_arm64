@@ -33,8 +33,8 @@ cd $HOME
 ```
 ### Also, here the sample benchmark that i've done on it, both of all using qwen2.5:0.5b LLM.
 ```
-Orange pi Zero 3 1GB h618 cpu  = 0.49 T/s
-Tanix tx6 4/32GB h6 cpu        = 4.40 T/s
-H96 Max X3 4/33GB s905x3 cpu   = 6.57 T/s
+Orange Pi Zero 3 1GB H618 CPU  = 0.49 T/s
+Tanix Tx6 4/32GB H6 CPU        = 4.40 T/s
+H96 Max X3 4/32GB S905X3 CPU   = 6.57 T/s
 ```
 ## Feel free to Stargaze :D
