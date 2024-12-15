@@ -1,5 +1,5 @@
 # Description
-This repo will explain, how to installing llama.cpp for arm64 device? then how to pull dataset (llm) over Ollama library?.
+This repo will explain, how to installing llama.cpp for arm64 device? then how to pull dataset (LLM) over Ollama library?.
 
 ### Installing dependencies first
 ```
@@ -22,7 +22,7 @@ https://github.com/akx/ollama-dl.git
 cd ollama-dl
 pip install uv
 ```
-### Then clone llm from Ollama library, the sample here qwen2.5:0.5b for other llm you can browse over [ollama](https://ollama.com/library).
+### Then clone llm from Ollama library, the sample here qwen2.5:0.5b for other LLM you can browse over [ollama](https://ollama.com/library).
 ```
 uv run ollama_dl.py qwen2.5:0.5b
 ```
