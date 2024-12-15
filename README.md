@@ -32,7 +32,7 @@ uv run ollama_dl.py qwen2.5:0.5b
 cd $HOME
 ./llama.cpp/build/bin/llama-cli -m ./ollama-dl/library-qwen2.5-0.5b/model-*.gguf -p "hello" -cnv -co
 ```
-**For other option use**
+**To use the other option.**
 ```
 ./llama.cpp/build/bin/llama-cli -h
 ```
