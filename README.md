@@ -42,4 +42,4 @@ Orange Pi Zero 3 1GB H618 CPU  = 0.49 T/s
 Tanix Tx6 4/32GB H6 CPU        = 4.40 T/s
 H96 Max X3 4/32GB S905X3 CPU   = 6.57 T/s
 ```
-## Feel free to Stargaze :D
+## Feel free to Stargaze if u find this usefull :D
