@@ -22,7 +22,7 @@ https://github.com/akx/ollama-dl.git
 cd ollama-dl
 pip install uv
 ```
-### Then clone llm from Ollama library, the sample here qwen2.5:0.5b for other llm you can browse over [ollama webapps]https://ollama.com/library.
+### Then clone llm from Ollama library, the sample here qwen2.5:0.5b for other llm you can browse over [ollama](https://ollama.com/library).
 ```
 uv run ollama_dl.py qwen2.5:0.5b
 ```
